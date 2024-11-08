@@ -10,7 +10,7 @@ import java.util.List;
 public class Position {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
 
     @Column(name = "name", length = 100)
     private String name;

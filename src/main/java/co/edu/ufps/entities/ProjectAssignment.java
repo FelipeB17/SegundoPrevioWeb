@@ -9,7 +9,7 @@ import lombok.Data;
 public class ProjectAssignment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
 
     @ManyToOne
     @JoinColumn(name = "project_id")
